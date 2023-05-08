@@ -1,0 +1,19 @@
+.todayCount {
+    font-size: 20vh;
+}
+
+.renderArea {
+    text-align: center;
+}
+
+.increase,
+.decrease {
+    width: 40%;
+    height: 10vh;
+    background: #2D6A4F;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 5vh;
+    border-radius: 50px;
+}

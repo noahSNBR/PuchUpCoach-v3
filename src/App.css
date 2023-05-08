@@ -1,13 +1,41 @@
+/* color: #081C15, #1B4332, #2D6A4F, #40916C, #52B788, #74C69D, #B7E4C7, #D8F3DC */
+
 .App,
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 100vw;
+  background: #081C15;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
 * {
   font-family: 'Quicksand';
   box-sizing: border-box;
   text-decoration: none;
+  transition: 350ms ease;
+  color: #74C69D;
+}
+
+h1 {
+  text-align: center;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' -25,
+    'opsz' 48
+}
+
+.renderArea {
+  background: #1B4332;
+  grid-column: 1 / 7;
+  grid-row: 2 / 6;
+  font-weight: 900;
+  padding: 0;
 }

@@ -1,0 +1,10 @@
+.settingsContainer button {
+    width: 60%;
+    height: 10vh;
+    margin: 20px;
+    background: #2D6A4F;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 5vh;
+}
